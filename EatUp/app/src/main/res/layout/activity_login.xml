@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/loginimage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/uniqueid_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:hint="@string/uniuqeid"
+        android:layout_marginTop="520dp"
+        android:textSize="23dp"
+        android:paddingLeft="10dp"
+        android:paddingVertical="4dp"
+        android:background="@drawable/custom_border"
+        />
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:hint="@string/password"
+        android:layout_marginTop="20dp"
+        android:textSize="23dp"
+        android:paddingLeft="10dp"
+        android:paddingVertical="4dp"
+        android:background="@drawable/custom_border"/>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/login"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp" />
+
+    
+
+</LinearLayout>
