@@ -15,10 +15,12 @@
         android:id="@+id/search"
         android:title="Search"
         android:icon="@drawable/ic_baseline_search_24"/>
+
     <item
         android:id="@+id/schedule"
         android:title="Schedule"
         android:icon="@drawable/ic_baseline_watch_later_24"/>
+
     <item
         android:id="@+id/profile"
         android:title="profile"

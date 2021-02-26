@@ -4,6 +4,18 @@
     <string name="uniuqeid">Contact No. or Email id</string>
     <string name="password">Enter Your Password</string>
     <string name="login">Login</string>
+
+
+    <string name="fname">Enter Your First name</string>
+    <string name="lname">Enter Your Last name</string>
+    <string name="email">Enter Your Email id</string>
+    <string name="phone">Enter Your Phone Number</string>
+    <string name="repass">Re-Enter Your Password</string>
+    <string name="forpass">Forget Password</string>
+    <string name="logtosignin">Did not have any Account!! Sign-in</string>
+
+    <string name="signtologintxt">Already have an Account?? Login</string>
+    <string name="forgetpass">Forget Password?? reset it.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
