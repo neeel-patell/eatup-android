@@ -37,9 +37,7 @@ public class Users_main extends AppCompatActivity {
                 case R.id.category:
                     fragment=new CategoryFragment();
                     break;
-                case R.id.search:
-                    fragment=new SearchFragment();
-                    break;
+
                 case R.id.schedule:
                     fragment=new ScheduleFragment();
                     break;
