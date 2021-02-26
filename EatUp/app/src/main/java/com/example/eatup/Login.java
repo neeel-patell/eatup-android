@@ -17,7 +17,16 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         TextView logtosigntext=(TextView)findViewById(R.id.logtosignintxt);
+        TextView forgetpassword=(TextView)findViewById(R.id.forgetpassword);
         Button loginbtn=(Button)findViewById(R.id.login_btn);
+
+        forgetpassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ForgetpasswordIntent=new Intent(Login.this,ForgetPasword.class);
+                startActivity(ForgetpasswordIntent);
+            }
+        });
 
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override

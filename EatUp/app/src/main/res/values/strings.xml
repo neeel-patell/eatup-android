@@ -5,6 +5,7 @@
     <string name="password">Enter Your Password</string>
     <string name="login">Login</string>
 
+    <string name="mailcontact">Contact No. or E-mail Adrees</string>
 
     <string name="fname">Enter Your First name</string>
     <string name="lname">Enter Your Last name</string>

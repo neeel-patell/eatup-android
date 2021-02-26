@@ -12,7 +12,7 @@ import android.widget.GridView;
 
 public class CategoryFragment extends Fragment {
 
-    int[] categoryitemimg={R.drawable.breakfast,R.drawable.free,R.drawable.soup,R.drawable.coffee,R.drawable.cake,R.drawable.pastri,R.drawable.vegetables,R.drawable.steak};
+    int[] categoryitemimg={R.drawable.breakfast,R.drawable.gfree,R.drawable.soup,R.drawable.coffee,R.drawable.cake,R.drawable.pastri,R.drawable.vegetables,R.drawable.steak};
     /*String[] catergoryitemname={"Breakfast","Lunch","Dinner"};
     String[] no_of_recipein_category={"555 recipe","555 recipe","555 recipe"};*/
 
