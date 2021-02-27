@@ -11,7 +11,7 @@ import android.widget.GridView;
 
 public class HomeFragment extends Fragment {
 
-    int[] recipeimg={R.drawable.breakfast,R.drawable.cake};
+    int[] recipeimg={R.drawable.something,R.drawable.cake};
     String[] recipename={"Breakfast","Cake"};
     String[] recipetype={"Breakfast","Lunch"};
     String[] reciperating={"5 rating","4 rating"};

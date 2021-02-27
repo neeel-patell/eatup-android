@@ -9,7 +9,7 @@
         android:roundIcon="@drawable/eatuplogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ForgetPasword"></activity>
+        <activity android:name=".ForgetPasword" />
         <activity android:name=".Users_main" />
         <activity android:name=".Signup" />
         <activity android:name=".Login" />
