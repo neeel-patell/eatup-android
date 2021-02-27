@@ -1,28 +1,29 @@
 package com.example.eatup;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.net.URI;
 
 public class MainAdapter extends BaseAdapter {
 
     private CategoryFragment context;
     private LayoutInflater inflater;
-    private int[] category_image;
+    String name;
+    URI category;
 
-    public MainAdapter(CategoryFragment c,int[] category_image){
+    public MainAdapter(CategoryFragment c,String name){
         context=c;
-        this.category_image=category_image;
+        this.name=name;
 
     }
 
     @Override
     public int getCount() {
-        return category_image.length;
+        return name.length();
     }
 
     @Override
@@ -44,11 +45,12 @@ public class MainAdapter extends BaseAdapter {
             view = inflater.inflate(R.layout.category_row, null);
         }
 
-        ImageView imgcategory=view.findViewById(R.id.item_category_image);
+        //ImageView imgcategory=view.findViewById(R.id.item_category_image);
 
-        imgcategory.setImageResource(category_image[position]);
+        //imgcategory.setImageResource(Integer.parseInt(image));
 
-
+        TextView textcat=view.findViewById(R.id.item_category_image);
+        textcat.setText(name);
         return view;
     }
 }

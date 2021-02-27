@@ -1,13 +1,12 @@
 package com.example.eatup;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Login extends AppCompatActivity {
 
@@ -19,6 +18,8 @@ public class Login extends AppCompatActivity {
         TextView logtosigntext=(TextView)findViewById(R.id.logtosignintxt);
         TextView forgetpassword=(TextView)findViewById(R.id.forgetpassword);
         Button loginbtn=(Button)findViewById(R.id.login_btn);
+
+
 
         forgetpassword.setOnClickListener(new View.OnClickListener() {
             @Override
